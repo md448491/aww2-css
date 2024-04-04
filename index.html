@@ -2,130 +2,139 @@
 	<head>
 		<link href="./output.css" rel="stylesheet">
 	</head>
-	<body class="bg-gray-100">
-		<header>
-			<p> Tiktok </p>
-		</header>
+	<body class="grid-container">
+		<div class="item1">
+			<header>
+				<p> Tiktok </p>
+			</header>
+		</div>
 
-		<article>
-			<div class="flex flex-col">
-				<div>
-					<h1> Everything to know about tiktok </h1>
+		<div class="item2">MENU</div>
+
+		<div class="item3">
+			<article>
+				<div class="flex flex-col">
+					<div>
+						<h1> Everything to know about tiktok </h1>
+					</div>
+					<div>
+						<p class="text-sky-500 bg-sky-100">Tiktok has become a wildly popular platform in the last couple of years.</p><br>
+					</div>
+					<div>
+						<table class="table-auto">
+					<caption>
+						Tiktok's popularity
+					</caption>
+					<thead>
+						<tr>
+							<th scope="col">Year</th>
+							<th scope="col">No of users</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">2016</th>
+							<td>5K</td>
+						</tr>
+						<tr>
+							<th scope="row">2017</th>
+							<td>100K</td>
+						</tr>
+						<tr>
+							<th scope="row">2018</th>
+							<td>2M</td>
+						</tr>
+						<tr>
+							<th scope="row">2019</th>
+							<td>100M</td>
+						</tr>
+						<tr>
+							<th scope="row">2020</th>
+							<td>1B</td>
+						</tr>
+					</tbody>
+				</table>
+					</div>
 				</div>
-				<div>
-					<p class="text-sky-500 bg-sky-100">Tiktok has become a wildly popular platform in the last couple of years.</p><br>
+
+				<br>
+
+				<div class="flex flex-row-reverse">
+					<div class="flex-auto">
+						<p class="text-green-500 bg-green-100">Click on the logo to check out what wikipedia and nytimes have to say about tiktok. <br>
+						Click text "tiktok" to go to tiktok's page </p>
+					</div>
+					<div class="flex-none">
+						<map name="tiktokmap">
+					<area 
+						shape="circle"
+						coords="275,275,50"
+						href="https://www.tiktok.com"
+						target="_blank"
+						alt="Tiktok page" />
+					<area 
+						shape="circle"
+						coords="275,75,50"
+						target="_blank"
+						href="https://en.wikipedia.org/wiki/TikTok"
+						alt="Tiktok wikipedia page" />
+					<area
+						shape="circle"
+						coords="275,175,50"
+						target="_blank"
+						href="https://www.nytimes.com/article/tiktok-ban.html"
+						alt="NYtimes about potential tiktok ban in us">
+						</map>
+						<img
+							usemap="#tiktokmap"
+							src="https://1000logos.net/wp-content/uploads/2019/06/Tiktok_Logo-500x313.png"
+							alt="logo tiktoka"
+							class="shadow-lg"
+						/> 
+					</div>
 				</div>
-				<div>
-					<table class="table-auto">
-				<caption>
-					Tiktok's popularity
-				</caption>
-				<thead>
-					<tr>
-						<th scope="col">Year</th>
-						<th scope="col">No of users</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<th scope="row">2016</th>
-						<td>5K</td>
-					</tr>
-					<tr>
-						<th scope="row">2017</th>
-						<td>100K</td>
-					</tr>
-					<tr>
-						<th scope="row">2018</th>
-						<td>2M</td>
-					</tr>
-					<tr>
-						<th scope="row">2019</th>
-						<td>100M</td>
-					</tr>
-					<tr>
-						<th scope="row">2020</th>
-						<td>1B</td>
-					</tr>
-				</tbody>
-			</table>
-				</div>
-			</div>
+				
+				<h2> The most popular tiktokers </h2>
+				<ol type="I">
+					<li> Charli D’Amelio
+						<p> An American <strong> influencer </strong>. She was a competitive <strong> dancer </strong> for over a decade before starting her social media career in 2019, when she began posting dance videos on the video-sharing platform TikTok. </p>
+						<details> Early life. Charli D’Amelio was born in Norwalk, Connecticut, on May 1, 2004, the daughter of photographer and former model Heidi D’Amelio and business owner and former Republican Connecticut Senate candidate Marc D’Amelio. She has an older sister, Dixie, who is also a social media personality. She began dancing at the age of three, and was a competitive dancer for over 10 years prior to …
+						</details>
+					<li> Khaby Lame
+					<li> Bella Poarch
+				</ol>
 
-			<br>
+				<form method="get" >
+					<label>
+						Who's your favourite tiktoker?
+						<input name="submitted-tikoker" class="shadow-md"/>
+					</label>
+					<button class="animate-ping">Submit</button>
+				</form>
 
-			<div class="flex flex-row-reverse">
-				<div class="flex-auto">
-					<p class="text-green-500 bg-green-100">Click on the logo to check out what wikipedia and nytimes have to say about tiktok. <br>
-					Click text "tiktok" to go to tiktok's page </p>
-				</div>
-				<div class="flex-none">
-					<map name="tiktokmap">
-				<area 
-					shape="circle"
-					coords="275,275,50"
-					href="https://www.tiktok.com"
-					target="_blank"
-					alt="Tiktok page" />
-				<area 
-					shape="circle"
-					coords="275,75,50"
-					target="_blank"
-					href="https://en.wikipedia.org/wiki/TikTok"
-					alt="Tiktok wikipedia page" />
-				<area
-					shape="circle"
-					coords="275,175,50"
-					target="_blank"
-					href="https://www.nytimes.com/article/tiktok-ban.html"
-					alt="NYtimes about potential tiktok ban in us">
-					</map>
-					<img
-						usemap="#tiktokmap"
-						src="https://1000logos.net/wp-content/uploads/2019/06/Tiktok_Logo-500x313.png"
-						alt="logo tiktoka"
-						class="shadow-lg"
-					/> 
-				</div>
-			</div>
-			
-			<h2> The most popular tiktokers </h2>
-			<ol type="I">
-				<li> Charli D’Amelio
-					<p> An American <strong> influencer </strong>. She was a competitive <strong> dancer </strong> for over a decade before starting her social media career in 2019, when she began posting dance videos on the video-sharing platform TikTok. </p>
-					<details> Early life. Charli D’Amelio was born in Norwalk, Connecticut, on May 1, 2004, the daughter of photographer and former model Heidi D’Amelio and business owner and former Republican Connecticut Senate candidate Marc D’Amelio. She has an older sister, Dixie, who is also a social media personality. She began dancing at the age of three, and was a competitive dancer for over 10 years prior to …
-					</details>
-				<li> Khaby Lame
-				<li> Bella Poarch
-			</ol>
-
-			<form method="get" >
-				<label>
-					Who's your favourite tiktoker?
-					<input name="submitted-tikoker" class="shadow-md"/>
-				</label>
-				<button class="animate-ping">Submit</button>
-			</form>
-
-			<form>
-				<label class="text-red-400 bg-red-100">
-					What do you think about tiktok?
-				</label>
-				<select name="thoughts">
-					<option value="">--Please choose an option--</option>
-					<option value="love">I love it</option>
-					<option value="hate">I hate it</option>
-					<option value="neutral">I'm neutral</option>
-					<option value="don't know">What is tiktok again?</option>
-				</select>
-			</form>
+				<form>
+					<label class="text-red-400 bg-red-100">
+						What do you think about tiktok?
+					</label>
+					<select name="thoughts">
+						<option value="">--Please choose an option--</option>
+						<option value="love">I love it</option>
+						<option value="hate">I hate it</option>
+						<option value="neutral">I'm neutral</option>
+						<option value="don't know">What is tiktok again?</option>
+					</select>
+				</form>
 
 
-		</article>
+			</article>
+		</div>
 
-		<footer>
-			<progress id="zadanie 2" max = "100" value = "5">
-			</progress>
-		</footer>
+		<div class="item4">
+			<footer>
+				<p> Autorka: Marta Dawidowska </p>
+				<progress id="zadanie 2" max = "100" value = "5">
+				</progress>
+			</footer>
+		</div>
 	</body>
 </html>
